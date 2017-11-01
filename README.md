@@ -8,22 +8,22 @@ INFORMAT recueille les données issues de l’Agence France-Presse avec pour seu
 
 INFORMAT s’imprime chez soi sur une unique feuille de format A4. Il facilite la transition de l’information entre son format digital et un support papier, lisible et compact.
 
-##Sources
+## Sources
 
 L’ensemble des articles ainsi que leur contenu provient de l’Agence France-Presse, ils ne sont pas la propriété d’INFORMAT.
 
-##Notes
+## Notes
 
 Projet en cour de réalisation
 
-##Auteur
+## Auteur
 
 [Dreams Office](http://www.dreamsoffice.fr/)
 
-##License
+## License
 
 Projet sous Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International. CC (BY NC SA)
 
-##Contact
+## Contact
 
 Pour plus d’informations contactez-nous à mail@informat.news
