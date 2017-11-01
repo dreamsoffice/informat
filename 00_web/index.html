@@ -1,0 +1,437 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Informat">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<title>Informat</title>
+	</head>
+		<body>
+        <div id="web">
+
+            <div id="main"><a href="javascript:window.print()">INFORMAT</a><br></div>
+
+            <div class="filters">
+            <table>
+                <tr>
+                    <td> <input id="france" class="button" type="checkbox" data-filter=".france">
+                    <label for="france">france</label> </td>
+
+                    <td><input id="monde" class="button" type="checkbox" data-filter=".monde">
+                    <label for="monde">monde</label></td>
+                </tr>
+                <tr>
+                    <td><input id="societe" class="button" type="checkbox" data-filter=".societe">
+                    <label for="societe">société</label></td>
+
+                    <td><input id="sport" class="button" type="checkbox" data-filter=".sport">
+                    <label for="sport">sport</label></td>
+                </tr>
+                <tr>   
+                    <td><input id="culture" class="button" type="checkbox" data-filter=".culture">
+                    <label for="culture">culture</label></td>
+
+                    <td><input id="environement" class="button" type="checkbox" data-filter=".environement">
+                    <label for="environement">environnement</label></td>
+
+                </tr>
+                <tr>    
+                    <td><input id="meteo" class="button" type="checkbox" data-filter=".meteo">
+                    <label for="meteo">météo</label></td>
+
+                    <td><input id="eco" class="button" type="checkbox" data-filter=".eco">
+                    <label for="eco">économie</label></td>
+                </tr>
+            </table> 
+            </div>
+
+            <div class="presentation"><p>• Informat permet d'imprimer l'information du jour sur un format A4.</p></div>
+            <div class="presentation b">• Décidez ce que vous voulez savoir en cochant les catégories ci-dessus.</div>
+            <div class="presentation c">• Imprimez votre journal en cliquant sur le titre au dessus.</div>
+        </div>
+        <div id="print">
+            <div id="headersans">Informat</div>
+            <div id="header"></div>
+            <div id="infos">
+                <div id="clock"></div>, à
+                <li id="hours"></li>
+                <li>:</li>
+                <li id="min"></li>
+                <div class="right">n°<span id="issue">0</span> imprimé en <span class="country">France</span></div>
+            </div>
+
+            <div id="page">
+
+            <div class="article meteo">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">météo</div>
+                    <div class="under">18:00<br>18/10/2017</div>
+                    </div>
+                <span class="titre city">Paris</span>
+                </div>
+            <div class="line"><span class="picto">&#x2602</span> matin<br></div>
+            <div class="line"><span class="picto">&#x26C5</span> midi<br></div>
+            <div class="line"><span class="picto">&#x2601</span> soir</div>
+            </div>
+
+            <div class="article sport">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">sport</div>
+                    <div class="under">18:00<br>17/10/2017</div>
+                    </div>
+                <span class="titre">ligue 1</span>
+                </div>
+            <div class="line"><span class="picto" style="background-color:rgba(0,0,0,0.1)">25pts</span> PSG<br></div>
+            <div class="line"><span class="picto" style="background-color:rgba(0,0,0,0.2)">19pts</span> Monaco<br></div>
+            <div class="line"><span class="picto" style="background-color:rgba(0,0,0,0.3)">17pts</span> St-Étienne<br></div>
+            <div class="line"><span class="picto" style="background-color:rgba(0,0,0,0.4)">17pts</span> OM<br></div>
+            <div class="line"><span class="picto" style="background-color:rgba(0,0,0,0.5)">17pts</span> Nantes</div>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">19:26<br>20/10/2017</div>
+                    </div>
+                <span class="titre">Après des semaines de polémique, l'Assemblée vote la réforme de l'ISF</span>
+                </div>
+            <p>Adieu l'ISF, bonjour l'IFI (impôt sur la fortune immobilière): les députés ont voté vendredi, après des semaines de polémique, la réforme la plus controversée du budget 2018, en dépit de la vive opposition de la gauche "à un cadeau aux plus riches".</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">16:41<br>20/10/2017</div>
+                    </div>
+                <span class="titre">Un directeur d'école mis en examen pour agressions sexuelles sur des enfants</span>
+                </div>
+            <p>Un directeur d'une école maternelle de Grand-Fort-Philippe (Nord), soupçonné d'agressions sexuelles sur des enfants et suspendu de ses fonctions depuis mai, a été mis en examen jeudi, a-t-on appris vendredi de sources concordantes, confirmant une information de l'hebdomadaire Le Phare Dunkerquois.</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">13:50<br>20/10/2017</div>
+                    </div>
+                <span class="titre">Mineurs étrangers: l'Etat "assumera l'évaluation" de leur âge et "l'hébergement d'urgence"</span>
+                </div>
+            <p>L'Etat "assumera l'évaluation" de l'âge "et l'hébergement d'urgence" des jeunes étrangers sans famille arrivant en France, et ce "jusqu'à ce que leur minorité soit confirmée", a affirmé vendredi Edouard Philippe, alors que les départements se disent débordés par cette prise en charge dont le coût explose.</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">00:30<br>20/10/2017</div>
+                    </div>
+                <span class="titre">Décès à 100 ans de Danielle Darrieux, actrice légendaire</span>
+                </div>
+            <p>Actrice légendaire du cinéma, Danielle Darrieux, inoubliable "Madame de..." et à la carrière d'une longévité exceptionnelle, est décédée mardi à son domicile de Bois-le-Roi (Eure), à plus de 100 ans.</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">14:16<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Projet d'attentat de l'ultradroite: 8 suspects devant un juge antiterroriste</span>
+                </div>
+            <p>Baptisé "OAS", le groupe projetait des "actions violentes", mais "aux contours imprécis", contre des politiques ou des mosquées: huit suspects, dont trois mineurs, sont présentés samedi à un juge d'instruction dans l'enquête sur l'organisation fondée par le militant d'ultradroite Logan Alexandre Nisin.</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">15:43<br>19/10/2017</div>
+                    </div>
+                <span class="titre">Neuf Femen poursuivies pour exhibition sexuelle à Hénin-Beaumont relaxées</span>
+                </div>
+            <p>Neuf militantes Femen qui avaient manifesté seins nus à Hénin-Beaumont, mairie FN, lors des deux tours de la présidentielle, ont été relaxées jeudi par le tribunal de Béthune (Pas-de-Calais), a-t-on appris auprès de leur avocate.</p>
+            </div>
+
+            <div class="article france">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">france</div>
+                    <div class="under">15:29<br>19/10/2017</div>
+                    </div>
+                <span class="titre">Ferrand n'est "pas une sauterelle" et entend rester à l'Assemblée</span>
+                </div>
+            <p>Richard Ferrand a assuré jeudi que malgré le classement de l'enquête sur les Mutuelles de Bretagne, il ne songeait pas à retourner au gouvernement, mais entendait rester patron des députés de La République en marche, estimant qu'il n'était "pas une sauterelle" et n'allait "pas aller d'un endroit à un autre".</p>
+            </div>
+
+            <div class="article environement">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">environnement</div>
+                    <div class="under">10:59<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Californie: comment les incendies ont-ils tourné au désastre historique?</span>
+                </div>
+            <p>Comment les récents incendies de Californie ont-ils pu provoquer autant de décès et destructions dans une région si cossue et touristique? Les experts avancent un cocktail explosif de vents puissants et de sécheresse.</p>
+            </div>
+            
+            <div class="article environement">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">environnement</div>
+                    <div class="under">07:23<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Nouveaux pesticides contestés: trois mois pour confirmer ou non l'autorisation</span>
+                </div>
+            <p>Face à la fronde des défenseurs de l'environnement contre l'homologation de deux insecticides dénoncés comme néfastes pour les abeilles, le gouvernement a donné vendredi trois mois aux autorités sanitaires pour confirmer ou non cette autorisation après examen de "nouvelles données".</p>
+            </div>
+
+            <div class="article monde">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">monde</div>
+                    <div class="under">09:39<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Les Tchèques continuent à voter: le vainqueur semble connu mais pas la suite</span>
+                </div>
+            <p>Les Tchèques ont recommencé à voter samedi, au deuxième et dernier jour des législatives, censées apporter la victoire au milliardaire Andrej Babis mais qui risquent aussi d'ouvrir une période d'incertitude.</p>
+            </div>
+
+            <div class="article monde">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">monde</div>
+                    <div class="under">18:21<br>20/10/2017</div>
+                    </div>
+                <span class="titre">"Risque de terrorisme" au Soudan: les citoyens américains mis en garde</span>
+                </div>
+            <p>Les Etats-Unis ont mis en mis en garde leurs ressortissants contre les "risques de terrorisme" s'ils se rendent au Soudan, provoquant la colère de Khartoum vendredi.</p>
+            </div>
+
+            <div class="article monde">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">monde</div>
+                    <div class="under">12:42<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Victoire attendue du "Trump tchèque", doutes sur la relation avec l'Occident</span>
+                </div>
+            <p>Les Tchèques finissaient de voter samedi, au deuxième et dernier jour des législatives, un scrutin sans surprise quant à la victoire apparemment acquise du milliardaire Andrej Babis mais marqué par l'inquiétude sur les relations avec l'Occident.</p>
+            </div>
+
+            <div class="article societe">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">société</div>
+                    <div class="under">10:41<br>21/10/2017</div>
+                    </div>
+                <span class="titre">En plein séisme au Mexique, le défi d'une opération à coeur ouvert</span>
+                </div>
+            <p>Quand la terre a tremblé au Mexique le 19 septembre, des milliers d'habitants sont sortis en courant dans la rue. Pas David Arellano: ce docteur qui opérait alors un nouveau-né à coeur ouvert a simplement redoublé de concentration.</p>
+            </div>
+
+            <div class="article societe">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">société</div>
+                    <div class="under">16:51<br>20/10/2017</div>
+                    </div>
+                <span class="titre">Accusé d'agression sexuelle, Joxe dénonce de "fausses allégations"</span>
+                </div>
+            <p>Accusé par l'écrivaine Ariane Fornia d'agression sexuelle lors d'une soirée à l'opéra au printemps 2010, Pierre Joxe, 82 ans, a fermement récusé vendredi les allégations de la jeune femme, par ailleurs fille de l'ex-ministre sarkozyste Éric Besson.</p>
+            </div>
+
+            <div class="article culture">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">culture</div>
+                    <div class="under">10:59<br>21/10/2017</div>
+                    </div>
+                <span class="titre">En Russie, le centenaire de la Révolution célébré sans éclat</span>
+                </div>
+            <p>La Russie célèbre sans éclat le centenaire de la révolution d'Octobre, séisme politique majeur du XXe siècle, le Kremlin craignant par dessus tout de donner une image positive d'un changement de régime par la force.</p>
+            </div>
+
+            <div class="article culture">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">culture</div>
+                    <div class="under">22:55<br>19/10/2017</div>
+                    </div>
+                <span class="titre">"Make America Crip Again": Snoop Dogg répond à Trump, version gangster</span>
+                </div>
+            <p>Le célèbre rappeur américain Snoop Dogg s'en est pris au président américain Donald Trump, très impopulaire au sein de la communauté hip-hop, en sortant jeudi un nouveau single intitulé "Make America Crip Again".</p>
+            </div>
+
+            <div class="article culture">
+                <div class="head">
+                    <div class="date">
+                    <div class="cat">culture</div>
+                    <div class="under">16:43<br>21/10/2017</div>
+                    </div>
+                <span class="titre">Pablo Neruda n'est pas mort d'un cancer comme écrit sur son certificat de décès</span>
+                </div>
+            <p>Des experts internationaux ont conclu à l'unanimité que Pablo Neruda, le prix Nobel de littérature, n'était pas mort d'un cancer, peu après le coup d'Etat de Pinochet en 1973, comme écrit dans son certificat de décès, mais ils n'ont pas été en mesure d'affirmer que le poète chilien avait été assassiné.</p>
+            </div>
+
+            <div class="article eco">
+                <div id="cac">
+                    <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="4 50 406 310" xml:space="preserve">
+                    <polygon fill="none" stroke="#000000" stroke-width="1" stroke-miterlimit="10" points="207.5,62 7.5,130 7.5,350 207.5,304 407.5,350 407.5,130 "/>
+                    </svg>
+                </div>
+                <div id="number">cac 40<br>5 372,38<br><span id="value">+4,09</span></div>
+            </div>
+            </div>
+
+            <div id="footer">
+            <span class="web">wwww.informat.news</span>
+            <span class="about">Dessiné à dessein par Dreams Office</span>
+            <span class="info">Pre Post Print 2017</span><br>
+            INFORMAT est un journal libre contenant l'information du jour sur un unique format A4. Pour plus d’informations contactez-nous à mail@informat.news • L’ensemble des articles ainsi que leur contenu provient de l’Agence France-Presse, ils ne sont pas la propriété d’INFORMAT.
+            </div>
+
+        </div>  
+
+            <script src="jquery-1.7.1.min.js"></script>
+            <script src="isotope.pkgd.min.js"></script>
+
+            <script type="text/javascript">
+                var $grid = $('#page').isotope({
+                itemSelector: '.article',
+                layoutMode: 'masonry'
+                });
+
+                var filters = [];
+
+                $('.filters').on( 'click', 'input', function( event ) {
+                    var $target = $( event.currentTarget );
+                    $target.toggleClass('is-checked');
+                    var isChecked = $target.hasClass('is-checked');
+                    var filter = $target.attr('data-filter');
+                    if ( isChecked ) {
+                    addFilter( filter );
+                    } else {
+                    removeFilter( filter );
+                    }
+
+                    $grid.isotope({ filter: filters.join(',') });
+
+                });
+
+                function addFilter( filter ) {
+                    if ( filters.indexOf( filter ) == -1 ) {
+                    filters.push( filter );
+                    }
+                }
+
+                function removeFilter( filter ) {
+                    var index = filters.indexOf( filter);
+                    if ( index != -1 ) {
+                    filters.splice( index, 1 );
+                    }
+                }
+
+                $grid.on( 'arrangeComplete',
+                    function( event, filteredItems ) {
+                    console.log( 'Isotope arrange completed on ' +
+                    filteredItems.length + ' items' );
+                    if  (filteredItems.length < 3){
+                    $('.article').addClass('big');
+                    $('.date').addClass('datemiddle');
+                    $('.cat').addClass('catmiddle');
+                    $('.under').addClass('undermiddle');
+                    $('.titre').addClass('titremiddle');
+                    $('.article').removeClass('small middle');
+                    $grid.isotope('layout');}
+
+                    else if  (filteredItems.length < 4 && filteredItems.length > 2){
+                    $('.article').addClass('middle');
+                    $('.date').addClass('datemiddle');
+                    $('.cat').addClass('catmiddle');
+                    $('.under').addClass('undermiddle');
+                    $('.titre').addClass('titremiddle');
+                    $('.article').removeClass('big small');
+                    $grid.isotope('layout');}
+
+                    else if  (filteredItems.length < 6 && filteredItems.length >= 4){
+                    $('.article').addClass('small');
+                    $('.date').addClass('datemiddle');
+                    $('.cat').addClass('catmiddle');
+                    $('.under').addClass('undermiddle');
+                    $('.titre').addClass('titremiddle');
+                    $('.article').removeClass('middle big');
+                    $grid.isotope('layout');}
+
+                    else{
+                    $('.article').removeClass('small middle big');
+                    $('.date').removeClass('datemiddle');
+                    $('.cat').removeClass('catmiddle');
+                    $('.under').removeClass('undermiddle');
+                    $('.titre').removeClass('titremiddle');
+                    $grid.isotope('layout');}
+                });
+
+            </script>
+
+            <script>
+                if ($("#number:contains('-')").length){
+                $('#cac').addClass('rotate');}   
+                else{
+                $('#cac').removeClass('rotate');}
+            </script>
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                var monthNames = [ "janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre" ]; 
+                var dayNames= ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"]
+
+                var newDate = new Date();
+                newDate.setDate(newDate.getDate());
+                $('#clock').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+
+                setInterval( function() {
+                var seconds = new Date().getSeconds();
+                $("#sec").html(( seconds < 10 ? "0":"")+ seconds);
+                },1000);
+
+                setInterval( function() {
+                var minutes = new Date().getMinutes();
+                $("#min").html(( minutes < 10 ? "0":"")+ minutes);
+                },1000);
+
+                setInterval( function() {
+                var hours = new Date().getHours();
+                $("#hours").html(( hours < 10 ? "0":"")+ hours);
+                }, 1000); 
+                });
+            </script>
+
+            <script type="text/javascript">
+            //     $(document).ready(function () {
+            //         $.getJSON("http://ip-api.io/json/",
+            //             function (result) {
+            //             $('.country').html(result.country_name)
+            //             $('.city').html(result.city)
+            //             console.log(result);
+            //         });
+            //     });
+            // </script>
+
+            <script>
+            // jQuery(function() {
+            //     var starting_number = parseInt(jQuery('#issue').text());
+            //     var preset_start_date = new Date("10/21/2017");
+            //     var current_date = new Date();
+            //     var timeDiff = Math.abs(current_date.getTime() - preset_start_date.getTime());
+            //     var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+            //     var final_counter = starting_number + diffDays;
+            //     jQuery('#issue').text(final_counter);
+            // }); 
+            // </script>
+
+    </body>
+</html>
